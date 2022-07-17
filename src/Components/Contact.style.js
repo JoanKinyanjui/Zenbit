@@ -2,7 +2,7 @@ import styled from "styled-components";
 import MapImg from '../images/map.png';
 
 export const ContactContainer =styled.div`
-       height: 1100px;
+       height: max-content;
        width: 100vw;
        left: -720px;
        top: -564px;
@@ -125,7 +125,7 @@ top: 900px;
 background: #FAFAFA;
 display: flex;
 @media (max-width:768px){
-height: 800px;
+height: max-content;
 top:800px;
 }
 `
