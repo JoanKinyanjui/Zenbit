@@ -1,5 +1,5 @@
 #Images
-![](images/work2.png)
+![](blob/master/public/images/work2.png)
 This is a feedback form that takes input requests from users and stores them into the database.<br />
 I used React and Styled-components for the frontend , node(express framework) for backened and Postgresql database.
 I used redux toolkit query for this assignment.
