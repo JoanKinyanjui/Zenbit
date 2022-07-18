@@ -1,4 +1,6 @@
-This is a feedback form that takes input requests from users and stores them into the database.
+#Images
+![](images/work2.png)
+This is a feedback form that takes input requests from users and stores them into the database.<br />
 I used React and Styled-components for the frontend , node(express framework) for backened and Postgresql database.
 I used redux toolkit query for this assignment.
 After installing redux-toolkit, I created services.js and handled the post request using mutation,created a hook that I used in the front-end to post data and made a reducerPath in the services.js and exported the service into the  store.
