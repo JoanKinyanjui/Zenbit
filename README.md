@@ -13,7 +13,7 @@ I wrapped my whole app with the store in order to access data globally in my app
 
 **Server:** Node, Express
 
-**Database** Postgresql
+**Database:** Postgresql
 
 
 ## Screenshots
