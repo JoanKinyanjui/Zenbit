@@ -4,6 +4,7 @@ const cors = require('cors');
  const bodyParser = require("body-parser");
 const client = require('./connection.js')
 const port = process.env.PORT|| 3000;
+const build= require('../build')
 
 app.listen(port,()=>{
     console.log(`Server running on ${port}`)
@@ -11,6 +12,7 @@ app.listen(port,()=>{
 
 app.use(cors());
 app.use(bodyParser.json());
+app.use(express.static(path.join(__dirname, build)));
 
 //Connect to Database
 client.connect(function(err) {
