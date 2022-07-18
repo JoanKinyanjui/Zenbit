@@ -1,5 +1,5 @@
 import React from 'react';
-import {ContactContainer, MapContainer,SmileyDiv,YellowSmiley} from './Contact.style'
+import {ContactContainer, MapContainer,YellowSmileyImg,SmileyDiv,YellowSmiley,SmileyImg} from './Contact.style'
 import Feedback from './Feedback';
 import Footer from './Footer';
 
@@ -10,10 +10,10 @@ function Contact() {
 
     <MapContainer>
     <YellowSmiley>
-            <img src='/images/goodie1.png'/>
+            <YellowSmileyImg src='/images/goodie1.png'/>
         </YellowSmiley>
         <SmileyDiv>
-            <img src='/images/goodie2.png'/>
+            <SmileyImg src='/images/goodie2.png'/>
         </SmileyDiv>
     </MapContainer>
 

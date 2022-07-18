@@ -36,7 +36,10 @@ margin-top:2rem;
 `
 export const FormContainer =styled.form`
 display:block;
-margin-top: 2rem;
+margin-top: 4rem;
+@media (max-width:768px){
+margin-top:5rem;
+}
 `
 export const SubmitButton =styled.input`
 height: 60px;
@@ -51,6 +54,7 @@ line-height:60px;
 font-family: Apercu Arabic Pro;
 font-size: 15px;
 color: rgba(255, 255, 255, 1);
+margin-top:2rem;
 @media (max-width:768px){
 height: 30px;
 width: 100px;
@@ -67,9 +71,16 @@ top: 368px;
 border-radius: 10px;
 margin-top:1rem;
 border: 1px solid #DCDCDC;
-@media (max-width:768px){
+@media (max-width:898px){
 height:70px;
 width: 400px;
+left: 100px;
+top: 358px;
+border-radius: 5px;
+}
+@media (max-width:768px){
+height:70px;
+width: 300px;
 left: 100px;
 top: 358px;
 border-radius: 5px;
@@ -86,9 +97,16 @@ top: 368px;
 border: 1px solid #DCDCDC;
 border-radius: 10px;
 border-radius: 10px;
+@media (max-width:898px){
+height:120px;
+width: 400px;
+left: 100px;
+top: 358px;
+border-radius: 5px;
+}
 @media (max-width:768px){
 height:100px;
-width: 400px;
+width: 300px;
 left: 100px;
 top: 358px;
 border-radius: 5px;
@@ -102,7 +120,33 @@ left: -76.9px;
 position:absolute;
 top: 55%;
 border-radius: 0px;
-/* border:2px solid orange; */
+@media (max-width:768px){
+top: 60%;
+height: 107.99998007368455px;
+width: 114.00001045662182px;
+}
+
+`
+export const SmileyImg =styled.img`
+border-radius: 0px;
+position: absolute;
+top: 0.07%; 
+@media (max-width:898px){
+height: 177.99998007368455px;
+width: 174.00001045662182px;
+top: 1%;
+}
+@media (max-width:768px){
+height: 157.99998007368455px;
+width: 154.00001045662182px;
+top: 1%;
+}
+@media (max-width:668px){
+height: 147.99998007368455px;
+width: 144.00001045662182px;
+top: 1%;
+}
+
 
 `
 export const YellowSmiley =styled.div`
@@ -115,6 +159,28 @@ border-radius: 0px;
 /* border:2px solid orange; */
 
 `
+
+export const YellowSmileyImg =styled.img`
+position: absolute;
+top: -0.05%;
+@media (max-width:898px){
+height: 140.99998007368455px;
+width: 147.00001045662182px;
+top: -30%;
+}
+@media (max-width:768px){
+height: 100.99998007368455px;
+width: 107.00001045662182px;
+top: 7%;
+}
+@media (max-width:668px){
+height: 80.99998007368455px;
+width: 87.00001045662182px;
+top: 17%;
+}
+
+`
+
 export const FooterContainer =styled.div`
 box-sizing: border-box;
 position: absolute;
